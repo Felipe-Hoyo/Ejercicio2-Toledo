@@ -27,9 +27,23 @@ footer{
 }
 nav a{
     text-decoration: none;
+    padding-left: 40px;
 }
 table{
-    font-size: 30px;
+    width: 95%;
+    margin: 0 auto 30px;
+    border-collapse: collapse;
+    font-size: 1rem;
+    background: rgba(255,255,255,0.08);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+th, td{
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 14px 12px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background: rgba(255,255,255,0.06);
 }
 .clases{
     margin: 10px;
@@ -38,6 +52,46 @@ table{
     border-radius: 15px;
     background-color: #14786c;
 }
-table{
-    background-color: #14786c;
+
+.formulario input[type="submit"] {
+    width: 50%;
+    max-width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario select {
+    width: 90%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+section{
+    min-height: 80vh;
+}
+.guia{
+    background-color: #2d3142;
+    color: #f5f3f5;
+}
+.hora{
+    background-color: rgba(255,255,255,0.9);
+    color: #1a1a1a;
+    font-weight: 700;
+}
+.musculacion{
+    background-color: #2d6a4f;
+    color: #f1faee;
+}
+.crossfit{
+    background-color: #1d3557;
+    color: #f7f7ff;
+}
+.yoga{
+    background-color: #457b9d;
+    color: #f8f9fa;
 }
